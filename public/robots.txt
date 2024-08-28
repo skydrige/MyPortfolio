@@ -1,3 +1,17 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Allow crawling of all routes
+Allow: /
+
+# Allow crawling of specific routes
+Allow: /project
+Allow: /about
+Allow: /resume
+
+# Allow crawling of PDFs
+Allow: /*.pdf$
+
+# Allow crawling of images in Assets folder
+Allow: /Assets/
